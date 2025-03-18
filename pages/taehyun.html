@@ -1,1 +1,75 @@
-Hello i'm taehyun behind of 05
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/d73817cb4a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <script defer src="./js/main.js"></script>
+  </head>
+  <body>
+    <!-- 시맨틱 태그 -->
+    <header>
+      <h1><a href="#">Trip For Kebab-Nara</a></h1>
+      <!-- GNB : 글로벌 내비게이션 바 가장 중요한 메뉴 -->
+      <ul id="gnb">
+        <li><a href="#">FISH</a></li>
+        <li><a href="#">BEEF</a></li>
+        <li><a href="#">PORK</a></li>
+        <li><a href="#">LAMB</a></li>
+      </ul>
+      <ul id="sns">
+        <li>
+          <a href="#"> <i class="fa-solid fa-magnifying-glass"></i> </a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa-regular fa-envelope"></i> </a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa-brands fa-square-facebook"></i> </a>
+        </li>
+      </ul>
+      <div id="snb">
+        <a href="#" class="btn_menu"> <i class="fa-solid fa-bars"></i> </a>
+        <ul class="sub_menu hide">
+          <li><a href="#">FISH</a></li>
+          <li><a href="#">BEEF</a></li>
+          <li><a href="#">PORK</a></li>
+          <li><a href="#">LAMB</a></li>
+          <li>
+            <a href="#"> <i class="fa-regular fa-envelope"></i> </a>
+            <a href="#"> <i class="fa-brands fa-square-facebook"></i> </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <figure>
+      <video src="./video/video.mp4" autoplay muted loop></video>
+      <article class="text">
+        <p id="nation">Türkiye, Istanbul<br /></p>
+        <p id="kebab">"Fish Kebab Gae-JhonMatt"</p>
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-plane"></i>
+              <strong>By a Plane</strong>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-sailboat"></i>
+              <strong>By a Boat</strong>
+            </a>
+          </li>
+        </ul>
+      </article>
+    </figure>
+    <footer>Memories from Türkiye</footer>
+  </body>
+</html>
