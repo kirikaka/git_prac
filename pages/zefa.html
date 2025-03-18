@@ -8,8 +8,20 @@
       src="https://kit.fontawesome.com/dafdaf312a.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./css/style.css" />
-    <script defer src="./js/main.js"></script>
+   
+    <script>
+      const snbBtn = document.querySelector('#snb .btn_menu');
+const subMenu = document.querySelector('#snb .sub_menu');
+
+snbBtn.addEventListener('click', function () {
+  if (subMenu.classList.contains('hide')) {
+    subMenu.classList.remove('hide');
+  } else {
+    subMenu.classList.add('hide');
+  }
+});
+
+    </script>
     <style>
       * {
   margin: 0;
